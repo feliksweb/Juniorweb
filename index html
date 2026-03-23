@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feliks Web Design</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #0f172a;
+            color: white;
+        }
+
+        header {
+            background: #020617;
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: #22c55e;
+            color: black;
+            padding: 15px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    Feliks Web Design
+</header>
+
+<section class="hero">
+    <h1>Websites That Bring You Customers</h1>
+    <p>I help small businesses get more clients online</p>
+
+    <a href="https://wa.me/27XXXXXXXXX" class="btn">
+        Chat on WhatsApp
+    </a>
+</section>
+
+<section class="section">
+    <h2>My Services</h2>
+
+    <div class="services">
+        <div class="card">
+            <h3>Basic Website</h3>
+            <p>1 Page website for your business</p>
+            <p><strong>R500</strong></p>
+        </div>
+
+        <div class="card">
+            <h3>Business Website</h3>
+            <p>Up to 5 pages + contact form</p>
+            <p><strong>R1200</strong></p>
+        </div>
+
+        <div class="card">
+            <h3>Premium Website</h3>
+            <p>Full website + modern design</p>
+            <p><strong>R2000+</strong></p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>About Me</h2>
+    <p>I create fast, modern websites for local businesses in Johannesburg.</p>
+</section>
+
+<footer>
+    © 2026 Feliks Web Design
+</footer>
+
+</body>
+</html>
